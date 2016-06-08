@@ -1,11 +1,7 @@
 clear
 clc
 
-% load('d1_272_our.mat')
-% load('d1_403_our.mat')
-% load('d1_427_our.mat')
-% load('d1_428_our.mat')
-load('d9_584_our.mat')
+load('d_272_our.mat')
 
 RR = [];
 
