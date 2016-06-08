@@ -21,10 +21,10 @@ save('d_272_data','Class','Features','indices')
 
 N = 100*ones(1,3); % 100 patients x 3 sites
 N_tst = round(N/4); % 25 patients x 3 sites
-B = [12,262,814,204,1338,170];
+B = [12,262,814,204,1338,170]; % Demo, con, diag, lab, pre, sym in order
 D = [2,10,10,10,10,10];
 
-rep = 100;
+rep = 60;
 
 k_nn = [1,3,9];
 
@@ -114,9 +114,6 @@ D = [2,10,10,10,10,10];
 B = sum(B);
 D = sum(D);
 
-rep = 15;
-
-k_nn = [1,3,9];
 Okay = [];
 
 for K = 1:fold
@@ -174,9 +171,6 @@ D = [2,10,10,10,10,10];
 B = sum(B);
 D = sum(D);
 
-rep = 15;
-
-k_nn = [1,3,9];
 Okay = [];
 
 for K = 1:fold
@@ -234,9 +228,6 @@ D = [2,10,10,10,10,10];
 B = sum(B);
 D = sum(D);
 
-rep = 15;
-
-k_nn = [1,3,9];
 Okay = [];
 
 for K = 1:fold
@@ -299,9 +290,6 @@ D = [2,10,10,10,10,10];
 B = sum(B);
 D = sum(D);
 
-rep = 15;
-
-k_nn = [1,3,9];
 Okay = [];
 
 for K = 1:fold
