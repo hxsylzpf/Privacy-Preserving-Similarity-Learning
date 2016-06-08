@@ -32,7 +32,7 @@ Run the following commands and you can get several mat files.
 
     D272
     
-Once you obtained mat files, run the following commands to calculate AUCs
+Once you obtained mat files, run the following commands to calculate AUCs.
 
     JH_M
     JH_OC
