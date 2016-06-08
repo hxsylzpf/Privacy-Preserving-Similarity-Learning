@@ -34,8 +34,8 @@ Run the following commands and you can get several mat files.
     
 Once you obtained mat files, run the following commands to calculate AUCs.
 
-    JH_M
-    JH_OC
+    Our_System
+    Open_Closed_Systems
 
 ## Libraries Used
 
