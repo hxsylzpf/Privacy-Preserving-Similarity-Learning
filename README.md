@@ -30,6 +30,7 @@ To run privacy-preserving similarity learning in matlab, set path using the foll
 ### 3. Execution and Results
 Run the following commands and you can get several mat files.
 
+    pathdef
     D272
     
 Once you obtained mat files, run the following commands to calculate AUCs.
