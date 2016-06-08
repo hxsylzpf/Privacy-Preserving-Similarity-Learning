@@ -1,4 +1,4 @@
-# Privacy Preserving Similarity Learning
+# Privacy-Preserving Similarity Learning
 
 ## Installation
 
