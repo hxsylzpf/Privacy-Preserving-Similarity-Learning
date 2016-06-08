@@ -1,9 +1,4 @@
 # Privacy Preserving Similarity Learning
-# Sequential prediction model of clinical phenotypes
-
-
-## Introduction
-
 
 ## Installation
 
