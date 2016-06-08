@@ -1,7 +1,7 @@
 clear all
 clc
 
-%% Closed system
+% Closed system
 
 load('d_272_closed1.mat')
 
