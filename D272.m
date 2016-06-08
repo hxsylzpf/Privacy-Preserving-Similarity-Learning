@@ -73,6 +73,8 @@ for K = 1:fold
         
         num = k_nn(nei);
         
+        % Baseline
+        
         for kind = 1:4
             if kind == 1
                 distance = 'euclidean';
