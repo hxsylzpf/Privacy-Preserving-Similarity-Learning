@@ -1,1 +1,1 @@
-# Privacy Preserving Similarity Learning in a Federated Setting
+# Privacy Preserving Similarity Learning
