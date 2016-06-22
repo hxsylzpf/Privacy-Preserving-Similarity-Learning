@@ -15,7 +15,10 @@ def parseLine(line):
     global feats
     [pid, diagnoses, demo, events_str, final_events_str, d_label] = line.split("|")
     #print(len(meow))
-    events = events_str.strip().split() + final_events_str.strip().split()
+    if d_label == 0:
+        events = events_str.strip().split() + final_events_str.strip().split()
+    elif d_label == 1:
+        events = events_str.strip().split()
     #print (len(final_events_str.strip().split()))
     patients[pid] = events
     coded_feat = []
