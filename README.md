@@ -16,7 +16,7 @@ To take the code for a spin run the following commands:
     python generate_seq_combined1.py
     python generate_data_matrix1.py
 
-After executing the last command you will see a csv file named 'd_272.csv' in your Data/mimic\_seq folder. Each line in these files represent 1 patient.
+After executing the last command you will see a csv file named 'd_272.csv' in your Data/mimic\_seq folder. Each line in these files represents one patient.
 
 ### 2. Set Path in Matlab
 To run privacy-preserving similarity learning in matlab, set path using the following commands:
